@@ -7,7 +7,7 @@ import Footer from './Footer';
 /*
 Only one element returned per function
  */
-const ItemsA = [{
+const ItemsHeader = [{
     text: 'Poducts',
     link: 'ProductsLink'
     },
@@ -36,7 +36,7 @@ const ItemsFooter = [{
 function App() {
   return (
     <div className="App">
-        <Header items={ItemsA}/>
+        <Header items={ItemsHeader}/>
         <Content/>
         <Footer items={ItemsFooter}/>
     </div>

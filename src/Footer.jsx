@@ -4,7 +4,7 @@ import Menu from "./Menu";
 
 function Footer(props){
     return (
-        <div className="App-footer">
+        <div className="container">
             <Menu items={props.items}/>
         </div>
     );
