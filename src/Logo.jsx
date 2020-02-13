@@ -1,6 +1,7 @@
 import React from 'react';
+import ReactLogo from './react.png';
 
-function Logo() {
+function Logo2() {
     return (
         <div className='logo'>
             Logo
@@ -8,4 +9,8 @@ function Logo() {
     );
 }
 
-export default Logo;
+export default Logo2;
+
+/*
+            /// <img src={ReactLogo}/>
+            */

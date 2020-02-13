@@ -1,14 +1,14 @@
 import React from "react";
 import './App.css';
 import Menu from './Menu';
-import Logo from "./Logo";
+import Logo2 from "./Logo";
 
 
 function Header(props){
     return (
         <header>
             <div className="container">
-                <Logo/>
+                <Logo2/>
                 <Menu items={props.items}/>
             </div>
         </header>
